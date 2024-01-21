@@ -23,11 +23,16 @@ body {
     margin: 0 auto;
 }
 
+
+/*header*/
+
+
 .container {
     max-width: var(--contWidth);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 header .container {
@@ -82,3 +87,4 @@ header .container {
     top: 45px;
     left: 40px;
 }
+
