@@ -88,3 +88,56 @@ header .container {
     left: 40px;
 }
 
+.mini-menu {
+    display: none;
+    background-color: var(--green);
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* home section */
+
+.home {
+    min-height: 915px;
+    background: url(../img/bg.jpg) center/cover fixed;
+}
+
+.home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: inherit;
+    text-align: center;
+}
+
+.home-header {
+    margin: 0;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 68px;
+}
+
+.home-text {
+    color: var(--white);
+    max-width: 1000px;
+    margin: 50px auto 90px;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.home-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 26px;
+    padding: 25px 40px;
+    border-radius: 5px;
+}
