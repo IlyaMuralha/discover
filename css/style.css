@@ -141,3 +141,79 @@ header .container {
     padding: 25px 40px;
     border-radius: 5px;
 }
+
+
+/* favorable section */
+
+.favorable {
+    padding: 100px 0 70px;
+}
+
+.section-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--green);
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+}
+
+.section-header::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #c2c2c2;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-75px);
+}
+
+.section-header::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--green);
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    transform: translateX(-25px);
+}
+
+.fav-container {
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.fav-item {
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.fav-text {
+    width: 280px;
+}
+
+.fav-title {
+    margin: 14px 0 20px;
+    font-size: 15px;
+    color: var(--darkgrey);
+    line-height: 20px;
+}
+
+.fav-desc {
+    font-size: 14px;
+    color: var(--lightgrey);
+    line-height: 22px;
+    margin: 0;
+}
+
+.fav-image {
+    width: 280px;
+    margin-right: 30px;
+}

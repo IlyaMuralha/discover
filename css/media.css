@@ -29,6 +29,20 @@
         min-height: auto;
         padding: 40px 0;
     }
+
+    /* favorable section */
+
+    .fav-container {
+        flex-direction: column;
+    }
+
+    .fav-item {
+        width: 100%;
+    }
+
+    .fav-text {
+        width: 100%;
+    }
 }
 
 @media(max-width:800px) {
@@ -70,5 +84,18 @@
     .home-text {
         font-size: 18px;
         line-height: 28px;
+    }
+}
+
+@media(max-width: 600px) {
+    /* favorable section */
+
+    .fav-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fav-image {
+        width: 70%;
     }
 }
