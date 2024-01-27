@@ -140,6 +140,12 @@ header .container {
     font-size: 26px;
     padding: 25px 40px;
     border-radius: 5px;
+    box-shadow: 0 0 35px rgba(89, 196, 90, .65);
+    transition: .3s;
+}
+
+.home-link:hover {
+    box-shadow: none;
 }
 
 
@@ -291,3 +297,43 @@ header .container {
     line-height: 24px;
     text-align: left;
 }
+
+/* tours section */
+
+.tours {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.tours-container {
+    flex-wrap: wrap;
+    margin: 75px auto;
+}
+
+.tours-link {
+    flex: 0 24%;
+    margin-bottom: 1%;
+}
+
+.tours-image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tours-button-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 26px;
+    padding: 25px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(89, 196, 90, .65);
+    transition: .3s;
+}
+
+.tours-button-link:hover {
+    box-shadow: none;
+}
+

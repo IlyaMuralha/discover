@@ -66,6 +66,13 @@
     .fav-text {
         width: 100%;
     }
+
+    /* tours section */
+
+    .tours-link {
+        flex: 0 32%;
+        margin-bottom: 2%;
+    }
 }
 
 @media(max-width:800px) {
@@ -114,6 +121,13 @@
     .service-item {
         margin: 0 auto 30px;
         width: 80%;
+    }
+
+    /* tours section */
+
+    .tours-link {
+        flex: 0 49%;
+        margin-bottom: 2%;
     }
 }
 
