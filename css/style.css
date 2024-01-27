@@ -217,3 +217,77 @@ header .container {
     width: 280px;
     margin-right: 30px;
 }
+
+/* service section */
+
+.service {
+    display: flex;
+    background-color: #efeeee;
+}
+
+.service-slider {
+    width: 50%;
+    position: relative;
+}
+
+.slick-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-color: #bbcfcf;
+    margin: 0 6px;
+}
+
+.slick-active button {
+    background-color: var(--white);
+}
+
+.slick-list, .slick-track {
+    height: 100%;
+}
+
+.slide-img {
+    height: 100%;
+}
+
+.service-block {
+    width: 50%;
+    padding: 60px 0;
+}
+
+.service-container {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 60px auto 0;
+}
+
+.service-item {
+    width: 48%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-text {
+    margin: 25px 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: var(--lightgrey);
+    line-height: 24px;
+    text-align: left;
+}
