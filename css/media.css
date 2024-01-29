@@ -129,6 +129,16 @@
         flex: 0 49%;
         margin-bottom: 2%;
     }
+
+    /* contacts section */
+
+    .contacts-container {
+        flex-direction: column;
+    }
+
+    .contacts-info, .contacts-form {
+        width: 100%;
+    }
 }
 
 @media(max-width: 600px) {
